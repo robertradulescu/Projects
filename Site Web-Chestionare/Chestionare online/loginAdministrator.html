@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>WEB PROJECT</title>
+		<meta charset="utf-8" /> 
+		<link rel="stylesheet" href="css/styles.css" type="text/css" />
+
+		
+	</head>
+<body class="hero-image">
+<img src="eu.jpg" class="img" alt="Avatar">
+<img src="bizi.jpeg" class="img1" alt="Avatar">
+<h1 class="text_center">Chestionarara</h1> <br>
+	
+	
+<div id="left-column">
+		<strong>Autentificare ca</strong>
+		<ul class="text_center,ul">
+			<li class="button"> <a href="loginUser.html">Utilizator</a>
+			<li class="button"> <a href="loginAdministrator.html">Administrator</a>
+		</ul>
+
+        <div id="right-column">    
+			<p>Introduceți datele de autentificare.</p>
+				<form action="checkAdministrator.php" method="post">
+					<table>
+						<tr>
+							<td>Admin</td>
+							<td><input type="text" name="adminName"></td>
+						</tr>
+						<tr>
+							<td>Parola</td>
+							<td><input type="password" name="adminPassword"></td>
+						</tr>
+						<tr>
+							<td><input type="submit" value="Logare"></td>
+							<td><input type="reset" value="Resetare"></td>
+						</tr>
+					</table>
+				</form>			
+			</div>
+			
+	</div>
+</body>
+</html>

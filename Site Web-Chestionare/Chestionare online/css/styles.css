@@ -1,0 +1,149 @@
+.hero-image {
+    background-image:url("1.jpg");
+    background-color: #56CFE1; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+  
+  .text_center {
+    text-align: center;
+
+  }
+  
+  .img{
+	 
+     position: absolute;
+     top: 8px;
+     right: 16px;
+     font-size: 18px;
+	 width:60px;
+	 border-radius:50%;
+	 
+ }
+   .img1{
+	  
+     position: absolute;
+     top: 8px;
+     left: 16px;
+     font-size: 18px;
+	 width:60px;
+	 border-radius:50%;
+	 
+ }
+ 
+ .button3 {background-color: #e1e5ea;
+ 
+  border: 2px solid #008CBA;
+  border-radius: 12px;
+  width:100px;
+  text-align:center;
+ 
+ }
+ .button3:hover {
+  background-color: #e1e5ea;
+  color: white;
+}
+ 
+.button {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+  border-radius: 12px;
+  width:150px;
+  text-align:center;
+    width: 50%;
+}
+
+.button:hover {
+  background-color: #008CBA;
+  color: white;
+}
+  
+  .text_left {
+    text-align: left;
+  }
+  
+  .text_right {
+    text-align: right;
+  }
+  .ul.b {
+    list-style-position: inside;
+  }
+  #left-column {
+  background-color: #9ee0a6;
+
+	left: 550px;
+	
+    line-height: 20px;
+    margin-top: 10px;
+    position: absolute;
+    text-align: left;
+    top: 30%;
+    width: 30%;
+	border-left: 1px solid;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	border-right: 1px solid;
+}
+
+#left-column li a:link, #menu li a:visited {
+	color: rgb(#5390D9);
+	display: block;
+	padding: 8px 0 0 10px;
+	}
+	
+#left-column li a:hover {
+	color: #FFF;
+	padding: 10px 0 0 10px;
+	}
+
+  #right-column a {
+    color: #000;
+  }
+  
+  #right-column a:hover{
+    font-weight: bold;
+    color: #ffaa22;
+    text-decoration: none;
+  }
+  
+#navcontainer {
+	float:left;
+	width:100%;
+	background:#efefef;
+	font-size:93%;
+	line-height:normal;
+	border-bottom:1px solid #666;
+	text-align: center;
+	}
+
+#navcontainer ul {
+	margin:0;
+	padding:10px 10px 0 50px;
+	list-style:none;
+	}
+
+#navcontainer li {
+	display:inline;
+	margin:0;
+	padding:0;
+	}
+
+#navcontainer a {
+	float:left;
+	
+	margin:0;
+	padding:0 0 0 4px;
+	text-decoration:none;
+	}
+
+#navcontainer a span {
+	float:left;
+	display:block;
+
+	padding:5px 15px 4px 6px;
+	color:#666;
+	}
+
